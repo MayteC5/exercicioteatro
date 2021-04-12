@@ -15,7 +15,7 @@ entity Assento{
     sessao Integer
     preco Float
     disponibilidade Disponibilidade
-    horario ZoneDateTime
+    horario LocalDate
 }
 
 enum Disponibilidade{
@@ -28,7 +28,7 @@ entity Ingresso{
     idteatro Integer
     idcliente Integer
     assento Integer
-    horario ZoneDateTime
+    horario LocalDate
     preco Float
 }
 
